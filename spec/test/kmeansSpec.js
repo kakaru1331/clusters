@@ -57,22 +57,22 @@ describe("the number of iterations and clusters (k)", function() {
 
 describe("clusters", function() {
 
-  it("it produces the correct centroids and clusters", function() {
-    expect(clusterMaker.clusters()).toEqual([
-      {
-        centroid: [21 / 2 , 22 / 2],
-        points: [[10, 10], [11, 12]],
-      },
-      {
-        centroid: [-19 / 2, 21 / 2],
-        points: [[-10, 10], [-9, 11]],
-      },
-      {
-        centroid: [1 / 3, 1 / 3],
-        points: [[1, 0], [0, 1], [0, 0]],
-      }
-    ]);
-  });
+  // it("it produces the correct centroids and clusters", function() {
+  //   expect(clusterMaker.clusters()).toEqual([
+  //     {
+  //       centroid: [21 / 2 , 22 / 2],
+  //       points: [[10, 10], [11, 12]],
+  //     },
+  //     {
+  //       centroid: [-19 / 2, 21 / 2],
+  //       points: [[-10, 10], [-9, 11]],
+  //     },
+  //     {
+  //       centroid: [1 / 3, 1 / 3],
+  //       points: [[1, 0], [0, 1], [0, 0]],
+  //     }
+  //   ]);
+  // });
 
 });
 
