@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/NathanEpstein/clusters/issues"
   },
-  "homepage": "https://github.com/NathanEpstein/clusters"
+  "homepage": "https://github.com/NathanEpstein/clusters",
+  "devDependencies": {
+    "jasmine": "^3.6.3"
+  }
 }
